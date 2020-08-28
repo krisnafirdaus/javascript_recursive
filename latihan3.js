@@ -8,10 +8,8 @@
 // f(n) =  ...
 function funcAngka(angka) {
   if (angka == 1) {
-    return 3;
+    alert 3;
   } else {
-    return funcAngka(1) * 2 ** (angka - 1);
+    alert(funcAngka(1) * 2 ** (angka - 1));
   }
 }
-
-console.log(funcAngka(1));
